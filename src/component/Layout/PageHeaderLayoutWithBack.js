@@ -1,8 +1,10 @@
 import React from 'react';
-import history from 'history';
+import createHistory from 'history/createBrowserHistory';
 import { Icon } from 'antd';
 import PageHeaderLayout from './PageHeaderLayout';
 import styles from './withBack.less';
+
+const history = createHistory();
 
 // 回退上个页面
 const goBack = () => {
