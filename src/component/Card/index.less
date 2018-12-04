@@ -1,0 +1,50 @@
+.cardComponent {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    .cover {
+      visibility: visible;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.desc {
+  color: #666;
+}
+
+.cardBottom {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 26px;
+  background: #fff;
+  height: 130px;
+}
+
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+  visibility: hidden;
+}
+
+.btnGroup {
+  width: 350px;
+  button {
+    width: 155px;
+    margin: 10px;
+  }
+}

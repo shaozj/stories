@@ -1,0 +1,41 @@
+.demoWrapper {
+  padding: 66px 24px 40px;
+  color: rgba(0, 0, 0, 0.65);
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  position: relative;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.title {
+  position: absolute;
+  top: 20px;
+  border-left: 4px solid #ccc;
+  padding-left: 8px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.exampleWrapper {
+  margin-bottom: 30px;
+  :global {
+    .ant-collapse {
+      border-radius: 0 0 4px 4px;
+      border-top: 0;
+      border-color: #ddd;
+      background: transparent;
+    }
+    .ant-collapse-content {
+      border-top: 1px dashed #ddd;
+    }
+    .ant-collapse > .ant-collapse-item {
+      border-bottom: 1px solid #ddd;
+    }
+    pre[class*="language-"], code[class*="language-"] {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
+  }
+}

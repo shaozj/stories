@@ -1,0 +1,28 @@
+.closablelistComponent {
+  padding-left: 0;
+
+  :global {
+    li {
+      list-style-type: none;
+      padding: 6px;
+      cursor: pointer;
+      &:hover {
+        background-color: #eee;
+      }
+    }
+  }
+  li.selected {
+    background-color: #e6f7ff;
+    .closeIcon {
+      display: block;
+    }
+  }
+  .closeIcon {
+    float: right;
+    padding-top: 3px;
+    display: none;
+    &:hover {
+      color: #1890ff;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "legacyDecorators": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "globals": {
+    "React": true,
+    "ReactDOM": true
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "jsx-a11y/href-no-hash": "off",
+    "semi": "warn",
+    "quotes": ["warn", "single"],
+    "comma-dangle": "warn",
+    "no-undef": "warn",
+    "global-strict": "off",
+    "no-extra-semi": "warn",
+    "no-underscore-dangle": "off",
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "no-trailing-spaces": ["warn", { "skipBlankLines": true }],
+    "no-unreachable": "warn",
+    "no-alert": "off",
+    "react/jsx-uses-react": "warn",
+    "react/jsx-uses-vars": "warn"
+  }
+}

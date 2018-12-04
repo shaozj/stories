@@ -1,0 +1,96 @@
+:global{
+  // 临时处理，后面处理好 schema2form 的依赖后删掉
+  // .anticon svg{
+  //   display: none !important;
+  // }
+  // .ant-pagination-item-link:after {
+  //   display: none !important;
+  // }
+  // -----
+  body.sb-show-main {
+    font-size: 14px;
+    padding: 20px 30px 20px 20px;
+  }
+  #root {
+    padding-bottom: 20px;
+  }
+  h2 {
+    color: #0d1a26;
+    font-size: 24px;
+  }
+  .markdown-body {
+    h2{
+      font-size: 24px;
+      line-height: 32px;
+      border: none;
+    }
+    h3, h2{
+      color: #0d1a26;
+      font-family: Lato, "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      margin: 1.6em 0 0.6em;
+      font-weight: 500;
+      clear: both;
+    }
+    table {
+      display: table;
+      border-collapse: collapse;
+      border-spacing: 0;
+      empty-cells: show;
+      width: 100%;
+      margin: 8px 0 16px;
+      font-size: 14px;
+      line-height: 1.5;
+      border-radius: 2px;
+      td:first-child {
+        font-weight: 500;
+        width: 20%;
+        font-family: 'Lucida Console', Consolas, Menlo, Courier, monospace;
+      }
+      td:nth-child(3) {
+        width: 22%;
+        font-size: 12px;
+        font-family: 'Lucida Console', Consolas, Menlo, Courier, monospace;
+      }
+      td:nth-child(4) {
+        font-weight: 500;
+        width: 13%;
+        font-family: 'Lucida Console', Consolas, Menlo, Courier, monospace;
+      }
+      th, td{
+        border: 1px solid #ebedf0;
+        padding: 16px 24px;
+        text-align: left;
+      }
+      th{
+        white-space: nowrap;
+        color: #5c6b77;
+        font-weight: 500;
+        background: rgba(0, 0, 0, 0.02);
+      }
+    }
+  }
+
+  pre.language-jsx {
+    background: #f2f4f5;
+  }
+
+  .ant-anchor-link {
+    width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.pageWrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.left {
+  flex-grow: 1;
+  margin-right: 30px;
+}
+
+.right {
+  width: 120px;
+}
